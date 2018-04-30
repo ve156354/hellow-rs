@@ -38,6 +38,7 @@ public class HelloWorld {
     @Path("/json")
     @Produces({ "application/json" })
     public String getHelloWorldJSON() {
+      System.out.println("SouceTreeMerge1 project");
         return "{\"result\":\"" + helloService.createHelloMessage("World") + "\"}";
     }
 
