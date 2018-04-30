@@ -40,6 +40,7 @@ public class MergeTest {
     public String getHelloWorldJSON() {
 
       System.out.println("How to Merge Branches in source Tree ");
+      System.out.println("Created new branch to test merge branches"):
         return "{\"result\":\"" + helloService.createHelloMessage("World") + "\"}";
     }
 
